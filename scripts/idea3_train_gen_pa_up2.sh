@@ -1,0 +1,11 @@
+python 2_train_gen_pa_up2_idea3.py \
+	--data_dir_pcl data/shapenet/ShapeNet_pointclouds \
+	--exp expts/4096/vessel \
+	--gpu 0 \
+	--category vessel \
+	--up_ratio 4 \
+	--batch_size 32 \
+	--lr 5e-4 \
+  --max_epoch 50 \
+	--bn_decoder \
+	--print_n 100 \
